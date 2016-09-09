@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+ <html class=" no-js" lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!DOCTYPE html>
+<html class=" no-js" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+    <title>Megathon 2016 by E-Cell IIT Hyderabad and E-Cell IIIT Hyderabad</title>
+
+    <link rel="dns-prefetch" href="http://ajax.googleapis.com/">
+    <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="http://themes.googleusercontent.com/">
+    <link rel="dns-prefetch" href="http://www.google-analytics.com/">
+
+
+        <link rel="stylesheet" href="css/screen.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <meta name="description" content="">
+    <meta name="author" content="">
+  </head>
+<body>
+
+    <!-- BEGIN POPUP -->
+
+    <div class="popup-email">
+      <div class="element">
+        <button id="btn" class="btn--primary" type="button">OK</button>
+      </div>
+    </div>
+
+    <!-- END POPUP -->
+
+
+  <header class="header-main">
+
+	<div class="container">
+
+		<a href="index.html">
+			<img src="images/logo.png" alt="" class="logo-default">
+			<img src="images/logo-black.png" alt="" class="logo-second">
+		</a>
+		<a href="javascript:void(0)" class="right bars"><span class="fa fa-bars"></span></a>
+
+		<nav>
+			<ul class="list-unstyled">
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li class="">
+					<a href="#who">Speakers</a>
+				</li>
+				<li>
+					<a href="#when">Schedules</a>
+				</li>
+				<!-- <li>
+					<a href="#where">Location</a>
+				</li>
+				<li>
+					<a href="#how-much">price List</a>
+				</li>
+				<li>
+					<a href="#filter">Gallery</a>
+				</li> -->
+				<li class="drop-link">
+					<a href="javascript:void(0)">Pages</a>
+					<ul class="drop-down">
+						<li>
+							<a href="blog-full-width.html">Blog full width</a>
+						</li>
+						<li>
+							<a href="blog-sidebar.html">Blog Sidebar</a>
+						</li>
+						<li>
+							<a href="blog-full-width-different-post-types.html">Blog Full Width Different Post Types</a>
+						</li>
+						<li>
+							<a href="blog-sidebar-with-images.html">Blog Sidebar With Images</a>
+						</li>
+						<li>
+							<a href="single-post.html">Single Post</a>
+						</li>
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+	</div>
+
+</header>
+
+
+
+  <main>
+
+  	<div class="popup register-popup">
+		<div class="overlay-popup"></div>
+		<div class="content-popup">
+        	<a href="javascript:void(0)" class="close-popup">&times;</a>
+
+			<h2 class="text-center uppercase">Register for this event</h2>
+			<h5 class="text-center light">Please complete all sections below</h5>
+			<form class="contact-form">
+				<label>
+					<input type="text" class="input input--primary" name="name" placeholder="First Name">
+				</label>
+				<label>
+					<input type="text" class="input input--primary" name="last-name" placeholder="Last Name">
+				</label>
+				<label>
+					<input type="email" class="input input--primary" name="mail" placeholder="Email Address">
+				</label>
+				<label>
+					<input type="text" class="input input--primary" name="phone" placeholder="Phone Number">
+				</label>
+
+				<label>
+					<select data-placeholder="Choose Your Ticket">
+			            <option value="null">Ticket1</option>
+			            <option value="#intro">Ticket2</option>
+			            <option value="#config">Ticket3</option>
+			            <option value="#methods">Ticket4</option>
+			            <option value="#download">Ticket5</option>
+			        </select>
+				</label>
+
+				<label for="check1">
+					<input type="checkbox" class="hide" id="check1">
+					<div class="inline middle check-box-item"></div>
+					<span class="inline middle">I agree to the <strong>Terms of Use</strong> and <strong>Privacy Policy</strong></span>
+				</label>
+				<br>
+
+				<button class="big-blue-btn" type="submit">REGISTER NOW</button>
+			</form>
+		</div>
+  	</div>
+
+  	<div class="subheader" id="subheader-section" style="background-image:url('images/subheader-image.jpg')">
+
+	    <article class="typography">
+	    	<div class="container" style ="padding-top:100px;">
+
+          <div class="custom-front">
+            <img src="images/ecell_new_logo2.png" width="200px" height="200px" style="display:inline-block;padding:10px 10px 0px 10px;">
+            <h1 style="display:inline-block;padding-left:40px;padding-right:40px;"> &nbsp;&nbsp;&nbsp;&nbsp;   &amp;   &nbsp;&nbsp;&nbsp;&nbsp;</h1>
+            <img src="images/ecelliiith.png" width="200px" height="200px" style="display:inline-block;padding:10px 10px 0px 10px;">
+          </div>
+          <h4>presents..</h4>
+	    	  <!-- <h1>Megathon 2016</h1> -->
+          <img src="images/logo.png" width="55%" height="55%" style="padding-left:50px;padding-bottom:20px">
+
+          <h4><span class="fa fa-calendar-o m-r-5"></span>17 - 18th Spetember 2016 , <span class="fa fa-map-marker m-r-5"></span> IIIT Hyderabad</h4>
+        </br>
+	    	  <a href="#subheader" class="btn--primary register-now">REGISTER NOW<span class="fa fa-long-arrow-right"></span></a>
+	    	</div>
+	    </article>
+
+	    <!-- <div class="counter">
+	    	<h5>Conference begins in:</h5>
+	    	<ul class="countdown">
+		        <li>
+		            <span class="days">00</span>
+		            <p class="days_ref">days</p>
+		        </li>
+		        <li>
+		            <span class="hours">00</span>
+		            <p class="hours_ref">hours</p>
+		        </li>
+		        <li>
+		            <span class="minutes">00</span>
+		            <p class="minutes_ref">minutes</p>
+		        </li>
+		        <li>
+		            <span class="seconds">00</span>
+		            <p class="seconds_ref">seconds</p>
+		        </li>
+		    </ul>
+	    </div> -->
+
+  	</div>
+
+  	<section class="about-section" id="about">
+  		<div class="container">
+	  		<h5>ABOUT</h5>
+	  		<h2><strong>SOMETHING ABOUT this EVENT</strong></h2>
+	  		<p>Russia students back forever alone fap fap le me le derp i dont get it donut. Boobs phone no scumbag scared i lied 140% love le girlfriend. Cool father okay a wodka happy blizzard 9000 fuck that shit. Collection not bad feel like a sir cellphone unlock faggot close enough varius too mainstream lol sexy time. Friendzoned problem? Hulk freddie mercury pizza no bad creepy me gusta facepalm bear i'm watching u. Mom simpson money joke brother kitchen woman gtfo cat. Face always pokeman painfull rainbow ba dumm tss essay jackie chan hac. Meme finals amet poker face challenge accepted star wars t-rex dog admire. </p>
+  		</div>
+  	</section>
+  	<section class="who-section gray-section" id="who">
+  		<div class="container">
+  			<h2 class="m-b-20"><strong>SPEAKERS/MENTORS/INVESTORS</strong></h2>
+  			<h5 class="regular m-b-140">17-18th September 2016</h5>
+
+  			<div class="row">
+  				<div class="col-sm-4">
+					<div class="box">
+						<div class="img-wrap" style="background:url('images/nitin.jpg') no-repeat center center;">
+
+						</div>
+						<h3 class="bold">Nitin Padmawar</h3>
+						<h5>Co-Founder Director &amp; CTO  <br> at Reasoning (Martjack)</h5>
+					</div>
+  				</div>
+  				<div class="col-sm-4">
+					<div class="box">
+						<div class="img-wrap" style="background:url('images/Suresh.jpg') no-repeat center center;">
+
+						</div>
+						<h3 class="bold">Suresh Challa</h3>
+						<h5> President <br> at TiE Hyderabad</h5>
+					</div>
+  				</div>
+  				<div class="col-sm-4">
+					<div class="box">
+						<div class="img-wrap" style="background:url('images/ramesh.jpg') no-repeat center center;">
+
+						</div>
+						<h3 class="bold">Ramesh Loganathan</h3>
+						<h5>VP (Products) &amp; Center Head, Progress Software- Hyderabad Labs</h5>
+					</div>
+  				</div>
+  				<div class="col-sm-4">
+					<div class="box">
+						<div class="img-wrap" style="background:url('images/sanjay.jpg') no-repeat center center;">
+
+						</div>
+						<h3 class="bold">Sanjay Enishetty</h3>
+						<h5>Managing Partner at <br> 50k Ventures</h5>
+					</div>
+  				</div>
+  				<div class="col-sm-4">
+					<div class="box">
+						<div class="img-wrap" style="background:url('images/prasad.jpg') no-repeat center center;">
+
+						</div>
+						<h3 class="bold">Prasad Vanga</h3>
+						<h5>Founder &amp; CEO <br> at Anthill</h5>
+					</div>
+  				</div>
+  				<div class="col-sm-4">
+					<div class="box">
+						<div class="img-wrap" style="background:url('images/images6.jpg') no-repeat center center;">
+
+						</div>
+						<h3 class="bold">Patrick Mainhardt</h3>
+						<h5>Senior engineer at the Financial <br> Times in London</h5>
+					</div>
+  				</div>
+  			</div>
+
+  			<div class="clearfix"></div>
+
+  			<a href="#subheader" class="btn--primary btn--black register-now">REGISTER NOW<span class="fa fa-long-arrow-right"></span></a>
+  		</div>
+  	</section>
+  	<section class="when-section" id="when">
+  		<div class="container">
+  			<h2><strong>SCHEDULE / AGENDA</strong></h2>
+
+		    <div class="customNavigation nav-slider text-center">
+  		 		<span class="text-nav inline middle">17-18th September 2016</span>
+			</div>
+
+			<center> <h3> Coming Soon... <h3> <center> 
+
+  			<!-- <div id="when-slider" class="owl-carousel owl-theme">
+
+			    <div class="item" data-date="17-18th November 2016">
+		  		 	<article>
+		  		 		<ul class="list-unstyled">
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>05:30 P.M. - </strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>45 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Photoshop is Dead: Editing Images in CSS</strong></h3>
+		  		 						<p>Depending on where you draw your measurements from, the first programming languages for use on ‘modern’ electric computers were designed in the ’40s and ’50s.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">John Brandenberger</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>10:00</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>60 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Vision, Hearing, &amp; The Brain</strong></h3>
+		  		 						<p>When you design a website, an app, software, or a product, you expect a human to interact with your design with their perceptual/sensory systems.
+										</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Susan Weinschenk</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>11:30</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>40 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Beyond the browser</strong></h3>
+		  		 						<p>HTML is arguably the most common language in the world. The magic of the browser delivers it to us on our phones, on our wrists, in our cars and even on our refrigerators.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Tom Giannattasio</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>13:15</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>45 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Modular design at work</strong></h3>
+		  		 						<p>As many of us move away from designing pages toward designing systems, one concept keeps coming up: modularity.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Alla Kholmatova</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 		</ul>
+		  		 	</article>
+			    </div> -->
+			    <!-- <div class="item" data-date="11th December 2015">
+		  		 	<article>
+		  		 		<ul class="list-unstyled">
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>09:00</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>45 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Photoshop is Dead: Editing Images in CSS</strong></h3>
+		  		 						<p>Depending on where you draw your measurements from, the first programming languages for use on ‘modern’ electric computers were designed in the ’40s and ’50s.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">John Brandenberger</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>10:00</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>60 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Vision, Hearing, &amp; The Brain</strong></h3>
+		  		 						<p>When you design a website, an app, software, or a product, you expect a human to interact with your design with their perceptual/sensory systems.
+										</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Susan Weinschenk</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>11:30</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>40 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Beyond the browser</strong></h3>
+		  		 						<p>HTML is arguably the most common language in the world. The magic of the browser delivers it to us on our phones, on our wrists, in our cars and even on our refrigerators.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Tom Giannattasio</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>13:15</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>45 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Modular design at work</strong></h3>
+		  		 						<p>As many of us move away from designing pages toward designing systems, one concept keeps coming up: modularity.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Alla Kholmatova</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 		</ul>
+		  		 	</article>
+			    </div>
+			    <div class="item" data-date="12th December 2015">
+		  		 	<article>
+		  		 		<ul class="list-unstyled">
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>09:00</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>45 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Photoshop is Dead: Editing Images in CSS</strong></h3>
+		  		 						<p>Depending on where you draw your measurements from, the first programming languages for use on ‘modern’ electric computers were designed in the ’40s and ’50s.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">John Brandenberger</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>10:00</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>60 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Vision, Hearing, &amp; The Brain</strong></h3>
+		  		 						<p>When you design a website, an app, software, or a product, you expect a human to interact with your design with their perceptual/sensory systems.
+										</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Susan Weinschenk</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>11:30</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>40 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Beyond the browser</strong></h3>
+		  		 						<p>HTML is arguably the most common language in the world. The magic of the browser delivers it to us on our phones, on our wrists, in our cars and even on our refrigerators.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Tom Giannattasio</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 			<li>
+		  		 				<div class="row">
+		  		 					<div class="col-lg-2">
+		  		 						<h3><strong>13:15</strong></h3>
+		  		 						<p><span class="fa fa-clock-o m-r-5"></span>45 min</p>
+		  		 					</div>
+		  		 					<div class="col-lg-6">
+		  		 						<h3><strong>Modular design at work</strong></h3>
+		  		 						<p>As many of us move away from designing pages toward designing systems, one concept keeps coming up: modularity.</p>
+		  		 					</div>
+		  		 					<div class="col-lg-3 col-lg-offset-1">
+		  		 						<h3 class="light">Alla Kholmatova</h3>
+		  		 					</div>
+		  		 				</div>
+
+		  		 			</li>
+		  		 		</ul>
+		  		 	</article>
+			    </div>
+
+		    </div>
+ -->
+  		</div>
+  	</section>
+  	<!-- <section class="where-section" id="where">
+		<div class="container">
+			<h5>WHERE</h5>
+			<h2><strong>LOCATION</strong></h2>
+			<p class="text-center">Cool father okay a wodka happy blizzard 9000 fuck that shit. Collection not bad feel like a sir cellphone unlock faggot close <br> enough varius too mainstream lol sexy time. Friendzoned problem?</p>
+		</div>
+
+		<div class="map">
+
+			<div id="map"></div>
+
+			<div class="map-info-box">
+	            <a href="javascript:void(0)" class="show-location"><span class="blink">LESS DETAILS</span></a>
+	            <div class="map-info">
+	            	<h5>Address</h5>
+	            	<p>Themestreet themes</p>
+	            	<p>42 Maverick Street, Boston, MA 02128</p>
+	            	<h5>Email</h5>
+	            	<p><a href="http://themestreet.net/">THEMESTREET.NET</a></p>
+	            	<h5>Phone</h5>
+	            	<p>1-855-289-5858</p>
+		        </div>
+	        </div>
+
+		</div>
+
+  	 </section> -->
+  	
+<center><h1><strong>PARTNERS</strong></h1>
+  	<section class="clients-section" id="clients">
+
+			<h2><strong>ECOSYSTEM PARTNERS</strong></h2>
+			<ul class="list-unstyled">
+				<li>
+					<a href="http://www.theaugustfest.com">
+						<img src="images/taf.png" width="100px" height="100px" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="http://t-hub.co">
+						<img src="images/t-hub.png" height = "100px" width="100px" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="http://iiith.org/">
+						<img src="images/IIIT-H-logo.png" alt="">
+					</a>
+				</li>
+			</ul>
+
+  	</section>
+<section class="clients-section" id="clients">
+
+			<h2><strong>SPONSORS</strong></h2>
+			<ul class="list-unstyled">
+				<li>
+					<a href="#">
+						<img src="images/invision-logo-pink1.png" width="150" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/kloudless_official.png" width="150" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/DO_Logo_horizontal_blue.png" width="150" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/Tech Logo High Res.png" width="150" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/aws_logo.gif" width="200" alt="">
+					</a>
+				</li>
+
+			</ul>
+
+  	</section>
+	<section class="clients-section" id="clients">
+		
+			<h2><strong>MEDIA PARTNERS</strong></h2>
+			<ul class="list-unstyled">
+				<li>
+					<a href="http://www.inc42.com">
+						<img src="images/inc42.png" width="200px" height="100px" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="http://theindiantalks.com">
+						<img src="images/indiatalks.png" height = "100px" width="250px" alt="">
+					</a>
+				</li>
+			</ul>
+		
+  	</section>
+	<section class="clients-section" id="clients">
+		
+			<h2><strong>HACKATHON PARTNER</strong></h2>
+			<ul class="list-unstyled">
+				<li>
+					<a href="http://www.hackmania.in">
+						<img src="images/hackmania.png" width="200px" height="100px" alt="">
+					</a>
+				</li>
+			</ul>
+		
+  	</section>
+
+
+   	<a id="top" href="#subheader">
+		<img src="images/arrow-top.png" alt="">
+	</a>
+  </main>
+
+
+  <footer class="footer-main">
+
+	<div class="container">
+
+		<small>
+			Copyright 2015 All Rights Reserved. Copyright </small>
+
+		<div class="social-links right">
+			<a href="#">
+				<span class="fa fa-twitter"></span>
+			</a>
+			<a href="#">
+				<span class="fa fa-facebook"></span>
+			</a>
+		</div>
+
+		<div class="clearfix"></div>
+
+	</div>
+
+
+</footer>
+
+
+
+	<!--[if lt IE 9]>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+	<!--<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/init.min.js"></script>
+  </body>
+
+<!-- Mirrored from demo.themestreet.net/eventura/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Sep 2016 10:11:46 GMT -->
+</html>
